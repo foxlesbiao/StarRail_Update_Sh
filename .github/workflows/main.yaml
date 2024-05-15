@@ -18,7 +18,7 @@ jobs:
     steps:
       - name: 'Checkout codes'
         uses: actions/checkout@v4
-      - name: 'Get Tracker'
+      - name: 'Get starrail'
         run: bash ./starrail.sh
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
